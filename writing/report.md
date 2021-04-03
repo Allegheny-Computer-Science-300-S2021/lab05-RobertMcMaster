@@ -7,22 +7,21 @@
 
  1. Which software did you use to conduct your analysis?
 
-#TODO
+The software I used is the Freiburg RNa tools Needleman-Wunsch.
 
  2. How similar were the two sequences (`s1.fasta` and `s2.fasta`) which you applied an alignment program?
 
- #TODO
+ These two sequences were very similar.
 
 
  3. Are the two sequences closely related to each other, in your opinion?
 
- #TODO
+ I think it is safe to say that they are closely related to eachother based on the high score that they received when compared using the Needleman-Wunsch tool. 
 
 
  4. What proof do you have to suggest such a claim?
 
-
- #TODO
+The proof I have to suggest this claim is that when I used the tool to compare the sequences, it received a score of 29, meaning they are very similar.
 
 
 
