@@ -1,4 +1,4 @@
-#### Name: Add Your Name Here
+#### Name: Robert McMaster
 #### Date: 29 March 2021
 #### What this is: Calculations from the manual work out of the Needleman-Wunsch algorithm.
 
@@ -24,43 +24,43 @@ a)
 
 
 b)
-- Match or Mismatch:               #TODO
-- Left entry calculation:          #TODO
-- Above entry calculation:         #TODO
-- Diagonal entry calculation:      #TODO
-- Max score: 1 from the Diagonal   #TODO
+- Match or Mismatch:              A != T. It is not a match
+- Left entry calculation:         (-1) - 1 = 0
+- Above entry calculation:        (-2) - 1 = -3
+- Diagonal entry calculation:     (-1) + 0 = -1
+- Max score: 1 from the Diagonal  0 from left entry
 
 
 c)
-- Match or Mismatch:               #TODO
-- Left entry calculation:          #TODO
-- Above entry calculation:         #TODO
-- Diagonal entry calculation:      #TODO
-- Max score: 1 from the Diagonal   #TODO
+- Match or Mismatch:               A != T. It is not a match
+- Left entry calculation:          (-2) - 1 = -3
+- Above entry calculation:         1 - 1 = 0
+- Diagonal entry calculation:      (-1) + 0 = -1
+- Max score: 1 from the Diagonal   0 from above entry
 
 
 d)
-- Match or Mismatch:               #TODO
-- Left entry calculation:          #TODO
-- Above entry calculation:         #TODO
-- Diagonal entry calculation:      #TODO
-- Max score: 1 from the Diagonal   #TODO
+- Match or Mismatch:               T = T. It is a match
+- Left entry calculation:          0 - 1 = (-1)
+- Above entry calculation:         0 - 1 = (-1)
+- Diagonal entry calculation:      1 + 1 = 2
+- Max score: 1 from the Diagonal   2 from diagonal entry
 
 
 e)
-- Match or Mismatch:               #TODO
-- Left entry calculation:          #TODO
-- Above entry calculation:         #TODO
-- Diagonal entry calculation:      #TODO
-- Max score: 1 from the Diagonal   #TODO
+- Match or Mismatch:              G != A. It is not a match
+- Left entry calculation:         (-3) - 1 = (-4)
+- Above entry calculation:        0 - 1 = (-1)
+- Diagonal entry calculation:     (-2) - 0 = (-2)
+- Max score: 1 from the Diagonal  -1 from above entry
 
 
 f)
-- Match or Mismatch:               #TODO
-- Left entry calculation:          #TODO
-- Above entry calculation:         #TODO
-- Diagonal entry calculation:      #TODO
-- Max score: 1 from the Diagonal   #TODO
+- Match or Mismatch:               G != T. It is not a match
+- Left entry calculation:          (-1) - 1 = (-2)
+- Above entry calculation:         2 - 1 = 1
+- Diagonal entry calculation:      0 + 0 = 0
+- Max score: 1 from the Diagonal   1 from above entry
 
 
 
